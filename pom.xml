@@ -6,7 +6,7 @@
 
     <groupId>ch.k42.scriptrunner</groupId>
     <artifactId>scriptrunner</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.6</version>
 
     <repositories>
         <repository>
@@ -32,6 +32,9 @@
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
+                <includes>
+                <include>plugin.yml</include>
+                </includes>
                 <filtering>true</filtering>
             </resource>
         </resources>

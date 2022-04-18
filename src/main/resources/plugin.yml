@@ -1,8 +1,8 @@
 name: ScriptRunner
 main: ch.k42.scriptrunner.ScriptPlugin
-version: 0.1.5
-authors: [AthmosPrime]
-description: Makes scripts executable from Minecraft. Scripts must reside in the plugin folder and be executable.
+version: 0.1.6
+authors: [AthmosPrime, kione]
+description: Execute shell scripts from Minecraft Game. You will need maven to build the package. Scripts must reside in the plugins folder ScriptRunner/ and be executable, chmod +x script.sh will be just fine.
 
 depend:
 
